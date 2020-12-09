@@ -3,9 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+<link rel="stylesheet" href="style.css">
+
+    <title>ROCK PAPER SCISSORS</title>
 </head>
 <body>
-    <h1>ROCK PAPER SCISSORS</h1>
+    <header>
+        <h1>ROCK PAPER SCISSORS GAME</h1>
+    </header>
+        <div class="score-board">
+            <div id="user-label" class="batch">USERS</div> 
+            <div id="computer-label" class="batch">COMPUTER</div>           
+            <span id="user-score"> 0</span> : <span id="computer-score"> 0</span>
+            
+        </div>
+        <div class="results">
+            <p>PAPER COVER ROCK. YOU WIN!</p>
+        </div>
+        <div class="choices">
+            <div class="choice" id="r">
+                <img  src="imgs/ROCK.png" alt="rock">
+            </div>
+            <div class="choice" id="p">
+                <img src="imgs/PAPER.png" alt="rock">
+            </div>
+            <div class="choice" id="s">
+                <img src="imgs/SCISSOR.png" alt="rock">
+            </div>
+            
+        </div>
+        <p id="action-message">MAKE YOUR MOVE</p>
+
+
+    
+        <script src="RPS.js"></script>
 </body>
 </html>
